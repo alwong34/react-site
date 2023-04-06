@@ -12,10 +12,10 @@ export class ProjectCard extends React.Component {
     render() {
         return (
             <Card style={{width: "40%"}}>
-                <CardMedia image={this.props.image} style={{width: "50rem", height: "25rem"}}/>
+                <CardMedia image={this.props.image} style={{width: "30rem", height: "10rem"}}/>
                 <CardContent>
                     <Typography>
-                        <strong>{this.props.title}</strong>
+                        <a href={this.props.link} target="_blank"><strong>{this.props.title}</strong></a>
                     </Typography>
                     <Typography style={{textAlign: "left"}}>
                         {this.props.text}
