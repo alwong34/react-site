@@ -6,7 +6,7 @@ import proxy from '../img/proxy-server.webp';
 export class Projects extends React.Component {
     render() {
         return (
-            <div>
+            <div id="projects">
                 <h1>My Projects</h1>
                 <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                     <ProjectCard image={musicviz} link="https://github.com/info340a-w20/music-viz" title="Music Visualizer" text="Utilize Deezer free music APIs to pull song samples and save them in a Firebase database.

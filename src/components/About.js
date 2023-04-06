@@ -10,7 +10,7 @@ export class About extends React.Component {
                     <div style={{display: "flex", flexDirection: "row"}}>
                         <div style={{display: "flex", width: "60%", flexDirection: "column", background: "#a3f7bf", justifyContent: "center"}}>
                             <h1>About Me</h1>
-                            <p style={{textAlign: "left", paddingLeft: "10rem", paddingRight: "10rem", paddingBottom: "4rem"}}>I am a software developer with a Bachelors of Science from the University of Washington Seattle's Informatics department. My skillsets vary from 
+                            <p style={{textAlign: "left", paddingLeft: "5rem", paddingRight: "5rem", paddingBottom: "4rem"}}>I am a software developer with a Bachelors of Science from the University of Washington Seattle's Informatics department. My skillsets vary from 
                                 front-end languages like HTML, CSS, and JavaScript to server-side technologies like Python, Docker, SQL, and many others in between. As a full-stack developer
                                 I like to be able to connect all the parts of a project and understand the inner workings and iteractions of each stage of technology. Cybersecurity has been an interest
                                 of mine since my start in college and I want to explore more about preventing vulnerabilities and delivering the highest quality code.</p>
